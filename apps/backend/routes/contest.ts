@@ -24,8 +24,11 @@ router.post("/:contest/:challengeId", (req, res) => {
 router.get("/leaderboard/:contestId", (req, res) => {
     
 })
-router.post("/submit/:challengeid", (req, res) => {
-    
+router.post("/submit/:challgengeId", (req, res) => {
+    // have rate limiting here.
+    // max 20 submissions per problem.
+    // forward the request to GPT.
+    // store the response in the sorted set and DB.
 })
 
 export default router;
