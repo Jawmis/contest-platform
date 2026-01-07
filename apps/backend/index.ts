@@ -11,4 +11,6 @@ app.use("/admin", adminRouter);
 app.use("/contest", contestRouter);
 
 app.listen(process.env.PORT ?? 4000);
-//hello
+
+//This is the Routing section->
+
